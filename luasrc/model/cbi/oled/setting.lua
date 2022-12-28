@@ -13,7 +13,7 @@ s:tab("info", translate("Info Display"))
 s:tab("screensaver", translate("screensaver"))
 
 o = s:taboption("info", Flag, "enable", translate("Enable"))
-o.default=0
+o.default=1
 o = s:taboption("info", Flag, "autoswitch", translate("Enable Auto switch"))
 o.default=0
 from = s:taboption("info", ListValue, "from", translate("From"))
